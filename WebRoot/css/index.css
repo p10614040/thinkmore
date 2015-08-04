@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+/* 首页内容 */
+.content {
+	margin-top: 10px;
+}
+
+/* 左侧内容 产品分类标题*/
+.leftSide h4 {
+	border: 0;
+	background-color: #f2f2f2;
+	line-height: 34px;
+	padding-left: 5px;
+}
+
+/* 产品分类的间距 */
+.leftSide .categorys {
+	margin-top: 20px;
+}
+
+/* 徽章列表间距 */
+.leftSide .badgeRow .col-xs-4 {
+	height: 26px;
+}
+/* 产品参数与产品共计之间间距 */
+.leftSide .badgeRow .col-xs-4 .badge {
+	margin-left: 2px;
+}
+
+/*  右侧产品详情里面富文本框进行渲染 
+.tbconxx {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+} */

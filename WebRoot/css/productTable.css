@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+
+#myScrollspy {
+	height: 600px;
+	overflow: auto;
+}
+
+.TopTag {
+	margin: 10px;
+}
+
+.TopTag h3 {
+	font-size: 12pt;
+}
+
+.TopTag h3 a {
+	display: block;
+	padding: 0 10px 0 0;
+}
+
+h2 {
+	background: #eee;
+	color: #060;
+	font-weight: normal;
+	padding: 5px 10px;
+	font-size: 12pt;
+}
+
+.TopTag ul {
+	margin: 10px 0 20px 10px;
+	font-size: 10pt;
+}
+
+.TopTag ul li {
+	overflow: hidden;
+	margin: 0 0 5px 0;
+}
+
+.TopTag ul li a {
+	display: block;
+}
+
+.TopTag ul li a:hover {
+	color: #40AA53;
+}
+
+.TopTag ul li em {
+	float: right;
+	font-style: normal;
+	color: #666;
+	background: #f2f2f2;
+	padding: 1px 2px;
+	font-size: 9pt;
+	font-style: normal;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.TopTag ul li a.current {
+	color: #40AA53;
+	font-weight: bold;
+}
+
+.TopTag ul li a.current em {
+	background: #40AA53;
+	color: #fff;
+}
+
+.TopTag ul li a:hover em {
+	background: #40AA53;
+	color: #fff;
+}
+
+/* 项目详细列表 */
+.col-xs-9 {
+	background: #fff;
+}
+
+#bsTable h2 em {
+	color: red;
+}
+
+#bsTable ul.List {
+	margin: 20px 5px;
+}
+
+#bsTable ul.List li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	list-style-type: none;
+}
+
+#bsTable ul.List li h3 {
+	font-size: 14pt;
+	text-decoration: none;
+	padding-left: 16px;
+}
+
+#bsTable ul.List li h3 em {
+	font-style: normal;
+	color: #060;
+}
+
+#bsTable ul.List li h3 a {
+	text-decoration: none;
+}
+
+#bsTable ul.List li a .name {
+	color: #060;
+	display: inline;
+	margin: 0;
+}
+
+#bsTable ul.List li a.projectImg {
+	display: block;
+	margin: 10px 0;
+}
+
+#bsTable ul.List li a.projectImg img {
+	max-width: 500px;
+}
+
+#bsTable ul.List li a.more {
+	font-weight: normal;
+	color: #A00;
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+#bsTable ul.List li a:hover {
+	color: #FF3300;
+	text-decoration: underline;
+}
+
+#bsTable ul.List li p.detail {
+	margin: 5px 0 5px 15px;
+	color: #666;
+	font-size: 9pt;
+	line-height: 20px;
+}
+
+#bsTable ul.List li p.news {
+	margin: 10px 0 5px 0;
+}
+
+#bsTable ul.List li p.news a {
+	color: #333;
+}
+
+/* 翻页 */
+.pageCss {
+	text-align: center;
+}
+
+.specialTitle{
+	font-style: normal;
+	color:#40AA53;
+}

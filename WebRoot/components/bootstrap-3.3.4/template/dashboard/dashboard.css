@@ -1,0 +1,31 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+/* 增加统一的字体样式 */
+body {
+  padding-top: 50px;
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+/*
+ * 修改警告信息的样式
+ */
+.alert-success {
+	background-color: #5cb85c;
+	color: white;
+}
+.alert-danger {
+	background-color: #d9534f;
+	color: white;
+}
+.alert-warning {
+	background-color: #f0ad4e;
+	color: white;
+}
+.alert-info {
+	background-color: #5bc0de;
+	color: white;
+}

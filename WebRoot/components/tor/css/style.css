@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Reset */
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+/* tFocus */
+#tFocus-btn li.active,#tFocus-leftbtn,#tFocus-rightbtn{display:block;background:url(img/spr.png) no-repeat;}
+#tFocus{margin: 0;padding: 0;background:#DDD;overflow:hidden;margin:30px auto 0 auto;}
+#tFocus-pic{width:1349px;height:320px;position:relative;}
+#tFocus-pic li{width:1349px;height:320px;position:absolute;left:0;top:0;filter:alpha(opacity:0);opacity:0;}
+#tFocusBtn{width:359px;height:68px;padding-left:5px;	margin-top:5px;z-index:20;overflow:hidden;}
+#tFocus-btn{width:289px;height:68px;position:relative;left:0;bottom:0;overflow:hidden;float:left;margin-right:3px;}
+#tFocus-btn ul{width:100000px;position:absolute;left:0;top:0;}
+#tFocus-btn li{height:57px;width:91px;padding-top:7px;display:block;float:left;margin-right:5px;}
+#tFocus-btn li img{border:2px solid #dddddd}
+#tFocus-btn li.active{background-position:-448px -100px;}
+#tFocus-btn li.active img{border:2px solid #40b9e5}
+#tFocus-leftbtn,#tFocus-rightbtn{height:40px;margin-top:18px;width:15px;float:left;text-indent:-9999px;}
+#tFocus-leftbtn{margin-right:5px;background-position:-455px -60px;}
+#tFocus-rightbtn{background-position:-480px -60px;}
